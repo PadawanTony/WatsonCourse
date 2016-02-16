@@ -1,9 +1,7 @@
 <?php namespace drugTeam\Repositories\QuoteRepositories;
 /**
- * Created by PhpStorm.
- * User: Rizart
- * Date: 6/14/2015
- * Time: 7:51 PM
+ * @author Antony Kalogeropoulos
+ * @since 2/16/2016
  */
 
 interface QuoteRepository {

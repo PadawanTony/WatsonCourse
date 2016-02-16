@@ -1,9 +1,7 @@
 <?php namespace drugTeam\Repositories\UserRepositories;
 /**
- * Created by PhpStorm.
- * User: Rizart
- * Date: 6/14/2015
- * Time: 6:46 PM
+ * @author Antony Kalogeropoulos
+ * @since 2/16/2016
  */
 
 class DbUserRepository implements  UserRepository

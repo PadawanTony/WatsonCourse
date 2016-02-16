@@ -1,10 +1,8 @@
 <?php namespace drugTeam\Models;
 
 /**
- * Created by PhpStorm.
- * User: Rizart
- * Date: 6/14/2015
- * Time: 6:48 PM
+ * @author Antony Kalogeropoulos
+ * @since 2/16/2016
  */
 class User
 {

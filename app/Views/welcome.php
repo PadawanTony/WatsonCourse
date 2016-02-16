@@ -44,15 +44,24 @@
         <li>
             <a href="#top" onclick=$("#menu-close").click();>Home</a>
         </li>
+	    <li>
+		    <a href="#services" onclick=$("#menu-close").click();>Team</a>
+	    </li>
         <li>
             <a href="#about" onclick=$("#menu-close").click();>About</a>
         </li>
         <li>
-            <a href="#services" onclick=$("#menu-close").click();></a>
+            <a href="#questions" onclick=$("#menu-close").click();>Questions</a>
         </li>
         <li>
-            <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+            <a href="#sources" onclick=$("#menu-close").click();>Sources</a>
         </li>
+	    <li>
+		    <a href="#intGroups" onclick=$("#menu-close").click();>Target Market</a>
+	    </li>
+	    <li>
+		    <a href="#simPro" onclick=$("#menu-close").click();>Competition</a>
+	    </li>
         <li>
             <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
         </li>
@@ -239,12 +248,12 @@
 
 
 <!-- Footer -->
-<footer>
+<footer id="contact" style="background-color: rgba(100,100,100, 0.3);">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h4><strong><?= $this->e($title) ?></strong>
-                </h4>
+                <h3><strong><?= $this->e($title) ?></strong>
+                </h3>
 
                 <p>6 Gravias Street<br>Athina 153-42</p>
                 <ul class="list-unstyled">

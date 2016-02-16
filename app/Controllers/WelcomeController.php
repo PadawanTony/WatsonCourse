@@ -4,8 +4,8 @@ use drugTeam\Repositories\QuoteRepositories\StaticQuoteRepository;
 use drugTeam\Repositories\UserRepositories\StaticUserRepository;
 
 /**
- * @author Rizart Dokollari
- * @since 6/14/2015
+ * @author Antony Kalogeropoulos
+ * @since 2/16/2016
  */
 class WelcomeController extends Controller
 {

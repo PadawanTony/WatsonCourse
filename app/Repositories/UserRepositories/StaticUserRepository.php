@@ -3,6 +3,9 @@
 use drugTeam\Models\User;
 
 /**
+ * * @author Antony Kalogeropoulos
+ * @since 2/16/2016
+ *
  * Static users. Please add your first name (the only required), last name, an url with an avatar of yours, and a website.
  */
 class StaticUserRepository implements UserRepository

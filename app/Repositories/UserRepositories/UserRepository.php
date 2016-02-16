@@ -1,10 +1,8 @@
 <?php namespace drugTeam\Repositories\UserRepositories;
 
 /**
- * Created by PhpStorm.
- * User: Rizart
- * Date: 6/14/2015
- * Time: 6:45 PM
+ * @author Antony Kalogeropoulos
+ * @since 2/16/2016
  */
 interface UserRepository
 {
