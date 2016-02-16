@@ -73,32 +73,6 @@
     </div>
 </header>
 
-<!-- About -->
-<section id="about" class="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 style="padding-bottom:5px; border-bottom: 1px solid lightgray;"> About The App </h2>
-
-	            <h3 style="background-color: lightblue; "> Food substances and their potentially harmful effects </h3>
-
-	            <ul style="text-align: left;" class="list-group">
-		            <li class="list-group-item">Substances that are linked with the development of different types of cancer (e.g.
-			            processed red meat has been liked with intestinal cancer etc.)</li>
-		            <li class="list-group-item">Substances that are considered cancerous and should be avoided (e.g. certain types of
-			            artificial colorings or food preservatives that could be found in processed food labels)</li>
-		            <li class="list-group-item">Substances that should be avoided by people with diabetes or high blood sugar levels</li>
-		            <li class="list-group-item">Substances that should not be consumed when pregnant - trying to have a baby
-			            breastfeeding</li>
-		            <li class="list-group-item">Substances that should be consumed only in moderate amounts</li>
-	            </ul>
-
-            </div>
-        </div>
-        <!-- /.row -->
-    </div>
-    <!-- /.container -->
-</section>
 
 <!-- Services -->
 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
@@ -112,7 +86,7 @@
                     <?php foreach ($users as $user): ?>
                         <div class="col-md-4 col-sm-6">
                             <div class="service-item">
-                                <img src="<?= $user->getAvatar() ?>" class="img-circle" style="width: 150px; height: 200px;"
+                                <img src="<?= $user->getAvatar() ?>" class="img-circle" style="width: 170px; height: 200px;"
                                      alt="Circular Image"/>
                                 <h4>
                                     <strong><?= $this->e($user->getFName() . ' ' . $user->getLName()) ?></strong>
@@ -133,83 +107,136 @@
     <!-- /.container -->
 </section>
 
-<!-- Callout -->
-<aside class="callout">
-    <div class="text-vertical-center">
-        <h1>Winter Is Coming</h1>
-    </div>
-</aside>
 
-<!-- Portfolio -->
-<section id="portfolio" class="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h2>Our Work</h2>
-                <hr class="small">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="portfolio-item">
-                            <a href="https://github.com/Hub-IT/gazzete">
-                                <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="portfolio-item">
-                            <a href="https://github.com/Hub-IT/hubit-cypberpunk">
-                                <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="portfolio-item">
-                            <a href="https://github.com/Hub-IT/club">
-                                <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="portfolio-item">
-                            <a href="https://github.com/Hub-IT/GitWorkshop_Java">
-                                <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.row (nested) -->
-                <a href="#" class="btn btn-dark">View More Items</a>
-            </div>
-            <!-- /.col-lg-10 -->
-        </div>
-        <!-- /.row -->
-    </div>
-    <!-- /.container -->
+<!-- About -->
+<section id="about" class="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 style="padding-bottom:5px; border-bottom: 1px solid lightgray;"> About The App </h2>
+
+				<h3 style="background-color: lightsalmon; "> Food substances and their potentially harmful effects </h3>
+
+				<ul style="text-align: left;" class="list-group">
+					<li class="list-group-item">Substances that are linked with the development of different types of cancer (e.g.
+						processed red meat has been liked with intestinal cancer etc.)</li>
+					<li class="list-group-item">Substances that are considered cancerous and should be avoided (e.g. certain types of
+						artificial colorings or food preservatives that could be found in processed food labels)</li>
+					<li class="list-group-item">Substances that should be avoided by people with diabetes or high blood sugar levels</li>
+					<li class="list-group-item">Substances that should not be consumed when pregnant - trying to have a baby
+						breastfeeding</li>
+					<li class="list-group-item">Substances that should be consumed only in moderate amounts</li>
+				</ul>
+
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
 </section>
 
-<!-- Call to Action -->
-<aside class="call-to-action bg-primary">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h3>The buttons below are impossible to resist.</h3>
-                <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-            </div>
-        </div>
-    </div>
-</aside>
 
-<!-- Map -->
-<section id="contact" class="map">
-    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.872655193806!2d23.829772899999988!3d38.00343069999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a199a36941f749%3A0x25c4e883777ce4ab!2sGravias+17%2C+Ag.+Paraskevi+153+42!5e0!3m2!1sen!2sgr!4v1434305333016"></iframe>
-    <br/>
-    <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
-    </iframe>
+<!-- Questions -->
+<section id="questions" class="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+
+				<h3 style="background-color: lightblue; "> Potential Questions To Be Answered </h3>
+
+				<ul style="text-align: left;" class="list-group">
+					<li class="list-group-item">1) Is ingredient X harmful for children? </li>
+					<li class="list-group-item">2) In what quantity is ingredient X harmful?</li>
+					<li class="list-group-item">3) Is ingredient X safe for people with diabetes?</li>
+					<li class="list-group-item">4) Which ingredients are forbidden in EU but allowed in US?</li>
+					<li class="list-group-item">4) Which ingredients are benefitial to disease X?</li>
+					<li class="list-group-item">5) Which foods should I eat to increase my supply of ingredient X?</li>
+					<li class="list-group-item">6) Is ingredient X associated with languor/insomnia/disease?</li>
+				</ul>
+
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
 </section>
+
+
+<!-- Sources -->
+<section id="sources" class="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+
+				<h3 style="background-color: lightcoral; "> Where We Can Look For Content </h3>
+
+				<ul style="text-align: left;" class="list-group">
+					<a href="http://www.fda.gov/downloads/Food/FoodScienceResearch/ToolsMaterials/UCM430363.pdf"><li class="list-group-item">Definitions and concerns regarding bacteria and other stuff </li></a>
+					<a href="http://www.fda.gov/Food/FoodborneIllnessContaminants/PeopleAtRisk/ucm089629.htm"><li class="list-group-item">Dos and dont's for feeding infants</li></a>
+					<a href="http://www.fda.gov/Food/FoodborneIllnessContaminants/PeopleAtRisk/ucm312565.htm"><li class="list-group-item">Food safety for people with cancer</li></a>
+					<a href="http://www.fda.gov/Cosmetics/ProductsIngredients/Products/ucm228898.htm"><li class="list-group-item">Ingredients to look for when choosing hair products</li></a>
+					<a href="http://www.fda.gov/ForConsumers/ConsumerUpdates/ucm466588.htm"><li class="list-group-item">Harmful Dietary Supplements</li></a>
+				</ul>
+
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+</section>
+
+
+<!-- IntGroups -->
+<section id="intGroups" class="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+
+				<h3 style="background-color: yellowgreen; "> Target Market </h3>
+
+				<ul style="text-align: left;" class="list-group">
+					<li class="list-group-item">People with high risk for certain diseases (ex: diabetes, cholesterol, etc.)</li>
+					<li class="list-group-item">Mothers, future mothers, parents, etc.</li>
+					<li class="list-group-item">People who want to “avoid” cancer or other diseases.</li>
+					<li class="list-group-item">People who consume large amounts of processed/ready-made foodd (maybe because they work long hours) but do not necessarily know all their ingredients</li>
+					<li class="list-group-item">Athletes and people who need to follow diets and/or take food supplements.</li>
+				</ul>
+
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+</section>
+
+
+<!-- Similar Products -->
+<section id="simPro" class="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+
+				<h3 style="background-color: lightseagreen; "> Similar Products </h3>
+				<h5> (Some of them can read bar codes and identify the product)</h5>
+
+				<hr>
+
+				<ul style="text-align: left;" class="list-group">
+					<a href="http://ecosalon.com/5-mobile-apps-for-a-non-toxic-lifestyle/
+"><li class="list-group-item">Dirty Dozen</li></a>
+					<a href="http://www.prevention.com/beauty/natural-beauty/new-beauty-apps-make-identifying-toxic-ingredients-simple"> <li class="list-group-item"> Think dirty</li></a>
+					<a href="http://www.minutewonder.com/decode-the-list-of-ingredients-top-5-apps/"><li class="list-group-item">Fooducate</li></a>
+				</ul>
+
+				<p style="text-align: left; font-size: 1em;" class="table table-bordered"> We need to work on how to differentiate our app from these products. An initial idea is that the user will be able to take a picture of the ingredients lists and our app will report the ones that are harmful to him based on his preferences (diet, health, etc.)</p>
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+</section>
+
+
 
 <!-- Footer -->
 <footer>
@@ -219,10 +246,10 @@
                 <h4><strong><?= $this->e($title) ?></strong>
                 </h4>
 
-                <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                <p>6 Gravias Street<br>Athina 153-42</p>
                 <ul class="list-unstyled">
-                    <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                    <li><i class="fa fa-phone fa-fw"></i> 210 - 600 9800 </li>
+                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">support@drugTeam.com</a>
                     </li>
                 </ul>
                 <br>
@@ -238,7 +265,7 @@
                     </li>
                 </ul>
                 <hr class="small">
-                <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                <p class="text-muted">Copyright &copy; DrugTeam 2016</p>
             </div>
         </div>
     </div>

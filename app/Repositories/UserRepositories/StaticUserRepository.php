@@ -15,14 +15,14 @@ class StaticUserRepository implements UserRepository
                 'fName'   => 'Chiara',
                 'lName'   => 'Karadimou',
                 'role'    => 'AI, Machine Learning, Algorithms',
-                'avatar'  => 'img/callout.jpg',
+                'avatar'  => 'img/chiara.jpg',
                 'website' => ''
             ],
 
             [
                 'fName'   => 'Antony',
                 'lName'   => 'Kalogeropoulos',
-                'role'    => 'Web Dev, Teaching',
+                'role'    => 'Web Dev, Teaching, Start-Ups',
                 'avatar'  => 'img/antony.jpg',
                 'website' => 'https://github.com/PadawanTony/'
             ],
