@@ -1,4 +1,4 @@
-<?php namespace HubIT\Repositories\QuoteRepositories;
+<?php namespace drugTeam\Repositories\QuoteRepositories;
 /**
  * Created by PhpStorm.
  * User: Rizart

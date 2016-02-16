@@ -1,7 +1,7 @@
-<?php namespace HubIT\Controllers;
+<?php namespace drugTeam\Controllers;
 
-use HubIT\Repositories\QuoteRepositories\StaticQuoteRepository;
-use HubIT\Repositories\UserRepositories\StaticUserRepository;
+use drugTeam\Repositories\QuoteRepositories\StaticQuoteRepository;
+use drugTeam\Repositories\UserRepositories\StaticUserRepository;
 
 /**
  * @author Rizart Dokollari

@@ -1,4 +1,4 @@
-<?php namespace HubIT\Controllers;
+<?php namespace drugTeam\Controllers;
 
 use League\Plates\Engine;
 

@@ -1,4 +1,4 @@
-<?php namespace HubIT\Models;
+<?php namespace drugTeam\Models;
 
 /**
  * Created by PhpStorm.

@@ -1,4 +1,4 @@
-<?php namespace HubIT\Repositories\UserRepositories;
+<?php namespace drugTeam\Repositories\UserRepositories;
 /**
  * Created by PhpStorm.
  * User: Rizart
