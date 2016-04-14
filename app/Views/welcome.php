@@ -345,7 +345,7 @@
 				<hr>
 				<ul style="text-align: left;" class="list-group">
 					<li class="list-group-item">@1 Success Rate: 0.505</li>
-					<li class="list-group-item">@3 Success Rate: 0.438</li>
+					<li class="list-group-item">@3 Success Rate: 0.543</li>
 					<li class="list-group-item">Problem with Vitamins:<br/>
 						Watson could not “tell” difference between Vitamin A, Vitamin D, Vitamin C etc. Matched word Vitamin in most cases and ignored the letters.
 					</li>
