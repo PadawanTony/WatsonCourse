@@ -62,6 +62,15 @@
 	    <li>
 		    <a href="#simPro" onclick=$("#menu-close").click();>Competition</a>
 	    </li>
+	    <li>
+		    <a href="#corpus" onclick=$("#menu-close").click();>Corpus</a>
+	    </li>
+	    <li>
+		    <a href="#training" onclick=$("#menu-close").click();>Training</a>
+	    </li>
+	    <li>
+		    <a href="#testing" onclick=$("#menu-close").click();>Testing</a>
+	    </li>
         <li>
             <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
         </li>
@@ -246,7 +255,7 @@
 </section>
 
 <!-- Corpus -->
-<section id="simPro" class="about">
+<section id="corpus" class="about">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -288,7 +297,7 @@
 </section>
 
 <!-- Training -->
-<section id="simPro" class="about">
+<section id="training" class="about">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -326,7 +335,7 @@
 </section>
 
 <!-- Testing -->
-<section id="simPro" class="about">
+<section id="testing" class="about">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
