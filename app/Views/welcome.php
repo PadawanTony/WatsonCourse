@@ -245,6 +245,116 @@
 	<!-- /.container -->
 </section>
 
+<!-- Corpus -->
+<section id="simPro" class="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+
+				<h3 style="background-color: pink; "> Corpus </h3>
+				<h5> Number of documents collected: 50 </h5>
+
+				<hr>
+
+				<h4 style="text-align: left;"><b>Due to time limitations, we focused on:</b></h4>
+				<ul style="text-align: left;" class="list-group">
+					<li class="list-group-item">Diabetes</li>
+					<li class="list-group-item">Blood Pressure</li>
+					<li class="list-group-item">Food Additives</li>
+					<li class="list-group-item">Pregnancy - Breastfeeding</li>
+					<li class="list-group-item">Infants & Young Children</li>
+				</ul>
+
+				<h4 style="text-align: left;"><b>Types of Documents Collected:</b></h4>
+				<ul style="text-align: left;" class="list-group">
+					<li class="list-group-item">HTML</li>
+					<li class="list-group-item">PDF</li>
+				</ul>
+
+				<h4 style="text-align: left;"><b>Sources:</b></h4>
+				<ul style="text-align: left;" class="list-group">
+					<li class="list-group-item">World Health Organization Regional Office Europe</li>
+					<li class="list-group-item">National Center for Chronic Disease Prevention</li>
+					<li class="list-group-item">International Baby Food Action Network</li>
+					<li class="list-group-item">World Health Organization Europe - UNICEF</li>
+					<li class="list-group-item">US Department of Health and Human Services </li>
+				</ul>
+
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+</section>
+
+<!-- Training -->
+<section id="simPro" class="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+
+				<h3 style="background-color: royalblue; "> Training </h3>
+				<h5> Number of Questions Used in 1st Training: 421 </h5>
+
+				<hr>
+
+				<h4 style="text-align: left;"><b>Process Followed, 1 Question + 3 Variations:</b></h4>
+				<ul style="text-align: left;" class="list-group">
+					<li class="list-group-item">Question 1: “What are the consequences of alcohol exposure during pregnancy?” <br/>
+						Question 2: “What could happen to my baby if I drink when pregnant?”  <br/>
+						<br/>
+						<i>Note:</i>When trying to train Watson on question 2, Question 1 did not appear as similar question in list Watson gave. The solution we found was  to use transitional questions to get to question 2. <br/>
+						Ex: “What are the consequences of drinking when pregnant?”
+						<br/>(have some common words to both questions)
+					</li>
+					<li class="list-group-item">
+						Types of Questions Used: <br/>
+						“I smoke, should I stop breastfeeding?” <br/>
+						“Can diabetic people have soft cheese?” <br/>
+						“How can I reduce my risk of having high blood pressure?” <br/>
+						“What foods contain trans fats?” <br/>
+						“Where can vitamin A be found?” <br/>
+						“Should I take vitamin D supplements?” <br/><br/>
+						<i>Comments:</i> Easier to train if 1st question is close to phrasing of original text where answer is found.
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+</section>
+
+<!-- Testing -->
+<section id="simPro" class="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+
+				<h3 style="background-color: forestgreen; "> Testing </h3>
+				<h5> Total Number of New Questions Used: 80 </h5>
+				<hr>
+				<ul style="text-align: left;" class="list-group">
+					<li class="list-group-item">@1 Success Rate: 0.4</li>
+					<li class="list-group-item">@3 Success Rate: 0.438</li>
+					<li class="list-group-item">Problem with Vitamins:<br/>
+						Watson could not “tell” difference between Vitamin A, Vitamin D, Vitamin C etc. Matched word Vitamin in most cases and ignored the letters.
+					</li>
+					<li class="list-group-item">Problem with questions that contained word “drink” but did not refer to alcohol: they were all matched to alcohol.<br/>
+						ex: “Can I drink coffee when pregnant?”
+
+					</li>
+					<li class="list-group-item">Problem with Index contained in some documents.
+					</li>
+					<li class="list-group-item">Problem with very large questions.
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+</section>
 
 
 <!-- Footer -->

@@ -34,7 +34,7 @@ class StaticUserRepository implements UserRepository
 		        'fName'   => 'Nourhan',
 		        'lName'   => 'El Shenawi',
 		        'role'    => 'AI, Philosophy',
-		        'avatar'  => 'img/nourhan.png',
+		        'avatar'  => 'img/nourhan.PNG',
 		        'website' => 'https://github.com/NourhanElshenawi/'
 	        ],
 

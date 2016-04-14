@@ -26,7 +26,7 @@ class WelcomeController extends Controller
      */
     public function index()
     {
-        $title = 'Drug Team';
+        $title = 'Food~For~Thought';
 
         $users = $this->userRepository->getAll();
 

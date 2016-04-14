@@ -27,10 +27,11 @@ require __DIR__ . '/../vendor/autoload.php';
 */
 $mux = new \Pux\Mux;
 
-//ToDo: Fix the line below??
 $mux->get('/', ['drugTeam\Controllers\WelcomeController', 'index']);
 
-$route = $mux->dispatch($_SERVER['REQUEST_URI']);
+//var_dump($_SERVER['REQUEST_URI']);
+$route = $mux->dispatch('/');
+
 
 echo Executor::execute($route);
 
